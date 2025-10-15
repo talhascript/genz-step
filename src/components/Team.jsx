@@ -1,6 +1,7 @@
 import './Team.css'
 import rifatImage from '../assets/1.jpg'
 import tanvirImage from '../assets/2.jpg'
+import ambassadorImage from '../assets/3.jpg'
 import { useEffect, useRef } from 'react'
 
 const Team = () => {
@@ -42,8 +43,9 @@ const Team = () => {
             </div>
             <div className="team-info">
               <h3>Rifat Shaon</h3>
-              <p className="team-education">Studied at University of Dhaka</p>
-              <p className="team-recognition">Recognised at The youngest Traveller of Bangladesh</p>
+              <p className="team-position">Founder</p>
+              <p className="team-education">University of Dhaka Graduate</p>
+              <p className="team-recognition">Recognized as the youngest traveller of Bangladesh</p>
             </div>
           </div>
           
@@ -53,8 +55,21 @@ const Team = () => {
             </div>
             <div className="team-info">
               <h3>Tanvir Raihan</h3>
-              <p className="team-education">Former student University of Dhaka</p>
-              <p className="team-recognition">Studies Information Technology at City University Malaysia</p>
+              <p className="team-position">CEO</p>
+              <p className="team-education">University of Dhaka Alumni</p>
+              <p className="team-recognition">Currently pursuing Information Technology at City University Malaysia</p>
+            </div>
+          </div>
+          
+          <div className="team-card animate-on-scroll">
+            <div className="team-image">
+              <img src={ambassadorImage} alt="Mohammad Hira Sarkar" />
+            </div>
+            <div className="team-info">
+              <h3>Mohammad Hira Sarkar</h3>
+              <p className="team-position">Brand Ambassador</p>
+              <p className="team-education">Dhaka University Graduate</p>
+              <p className="team-recognition">Founder of Dhaka University English Language Club</p>
             </div>
           </div>
         </div>

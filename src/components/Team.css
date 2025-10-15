@@ -73,8 +73,8 @@
 }
 
 .team-image {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 2rem auto;
   border-radius: 50%;
   overflow: hidden;
@@ -97,7 +97,20 @@
   font-size: 1.8rem;
   font-weight: 700;
   color: #1e3a5f;
+  margin-bottom: 0.5rem;
+}
+
+.team-position {
+  font-size: 1.2rem;
+  color: #8bc34a;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(139, 195, 74, 0.1), rgba(139, 195, 74, 0.05));
+  border-radius: 0.5rem;
+  display: inline-block;
 }
 
 .team-education {
@@ -151,8 +164,8 @@
   }
   
   .team-image {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
   }
   
   .team-info h3 {
